@@ -8,7 +8,7 @@ leanPackages.buildLakePackage {
   pname = lakefile.name;
   inherit (lakefile) version;
   src = builtins.path { path = ./.; };
-  lakeHash = "sha256-i3On3b57tKQ4dxA9bjaRy/iNB48euhTib0594V/Egxs=";
+  lakeHash = "sha256-4vNbdnhsyJehfbXPQdpyADJyPMrPbhjGW9LS7YK1Q3A=";
 
   doCheck = true;
   checkPhase = ''
