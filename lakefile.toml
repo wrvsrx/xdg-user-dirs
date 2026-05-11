@@ -1,0 +1,17 @@
+name = "xdg-user-dirs"
+version = "0.1.0"
+defaultTargets = ["XdgUserDirs"]
+testDriver = "XdgUserDirsTest"
+
+[[require]]
+name = "xdg"
+git = "https://github.com/wrvsrx/xdg.git"
+rev = "0.14.0"
+version = "0.14.0"
+
+[[lean_lib]]
+name = "XdgUserDirs"
+
+[[lean_lib]]
+name = "XdgUserDirsTest"
+globs = [ "XdgUserDirsTest.+" ]

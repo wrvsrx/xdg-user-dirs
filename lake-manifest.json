@@ -1,0 +1,15 @@
+{"version": "1.1.0",
+ "packagesDir": ".lake/packages",
+ "packages":
+ [{"url": "https://github.com/wrvsrx/xdg.git",
+   "type": "git",
+   "subDir": null,
+   "scope": "",
+   "rev": "1937c2b113feb04ff40857feddd643f09436c402",
+   "name": "xdg",
+   "manifestFile": "lake-manifest.json",
+   "inputRev": "0.14.0",
+   "inherited": false,
+   "configFile": "lakefile.toml"}],
+ "name": "«xdg-user-dirs»",
+ "lakeDir": ".lake"}
