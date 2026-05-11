@@ -1,4 +1,4 @@
-import System.Xdg
+import Xdg
 
 /-!
 # XDG User Directories

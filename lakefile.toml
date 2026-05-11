@@ -6,8 +6,8 @@ testDriver = "XdgUserDirsTest"
 [[require]]
 name = "xdg"
 git = "https://github.com/wrvsrx/xdg.git"
-rev = "0.14.0"
-version = "0.14.0"
+rev = "0.15.0"
+version = "0.15.0"
 
 [[lean_lib]]
 name = "XdgUserDirs"
